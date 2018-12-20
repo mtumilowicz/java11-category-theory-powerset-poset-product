@@ -20,8 +20,11 @@ Suppose there is another product `P'` (with projections `f1`, `f2`),
 therefore:
 * `P' -> A => P' c A`
 * `P' -> B => P' c B`
-* so there exists morphism `g`: `P' c (A n B) => P' -> (A n B)` 
-(and `P' -> (A n B)` is unique,
+* so there exists morphism `g`, because 
+    ```
+    P' c (A n B) => P' -> (A n B)
+    ```
+    (and `P' -> (A n B)` is unique,
 as in any poset there is at most one arrow between any two 
 objects)
 * composition is satisfied as well (at most one arrow between
