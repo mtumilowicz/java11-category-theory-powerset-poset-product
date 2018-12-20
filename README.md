@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/mtumilowicz/java11-category-theory-powerset-poset-product.svg?branch=master)](https://travis-ci.com/mtumilowicz/java11-category-theory-powerset-poset-product)
+
 # java11-category-theory-powerset-poset-product
 
 Preliminary info (with basic intuitions) about product 
