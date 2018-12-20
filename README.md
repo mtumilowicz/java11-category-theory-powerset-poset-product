@@ -44,4 +44,4 @@ class PowerSetPosetProduct<T> {
 }
 ```
 note that we cannot implement projections, but we know that
-they exists (proof above).
+they exist (proof above).
