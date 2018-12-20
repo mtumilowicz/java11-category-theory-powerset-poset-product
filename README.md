@@ -7,8 +7,6 @@ Preliminary info (with basic intuitions) about product
 PowerSet Poset Category - all subsets of a given set
 with morphisms: `A -> B <=> A c B`
 
-**Note that not all subsets will have product.**
-
 we will sketch proof that `A n B` (intersection)
 has universal property:
 
