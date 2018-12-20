@@ -31,3 +31,17 @@ as in any poset there is at most one arrow between any two
 objects)
 * factorization of projections is satisfied as well 
 (at most one arrow between any two objects)
+
+# project description
+Basic implementation of product will be
+```
+class PowerSetPosetProduct<T> {
+    final ImmutableSet<T> product;
+
+    PowerSetPosetProduct(Set<T> first, Set<T> second) {
+        this.product = ImmutableSet.copyOf(Sets.intersection(first, second));
+    }
+}
+```
+note that we cannot give projections, but we know that
+they exists (proof above).
