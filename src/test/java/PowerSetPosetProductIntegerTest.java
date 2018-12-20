@@ -10,18 +10,18 @@ import static org.junit.Assert.assertTrue;
 /**
  * Created by mtumilowicz on 2018-12-20.
  */
-public class TotalPosetProductIntegerTest {
+public class PowerSetPosetProductIntegerTest {
     
     @Test
     public void empty_intersection() {
-        var posetProduct = new TotalPosetProduct<>(Set.of(1), Set.of(2));
+        var posetProduct = new PowerSetPosetProduct<>(Set.of(1), Set.of(2));
 
         assertTrue(posetProduct.product.isEmpty());
     }
 
     @Test
     public void notEmpty_intersection() {
-        var posetProduct = new TotalPosetProduct<>(Set.of(1, 2), Set.of(2, 3));
+        var posetProduct = new PowerSetPosetProduct<>(Set.of(1, 2), Set.of(2, 3));
 
         assertThat(posetProduct.product, hasSize(1));
         assertThat(posetProduct.product, contains(2));

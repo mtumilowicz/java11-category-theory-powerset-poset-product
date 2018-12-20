@@ -6,10 +6,10 @@ import java.util.Set;
 /**
  * Created by mtumilowicz on 2018-12-20.
  */
-class TotalPosetProduct<T> {
+class PowerSetPosetProduct<T> {
     final ImmutableSet<T> product;
 
-    TotalPosetProduct(Set<T> first, Set<T> second) {
+    PowerSetPosetProduct(Set<T> first, Set<T> second) {
         this.product = ImmutableSet.copyOf(Sets.intersection(first, second));
     }
 }

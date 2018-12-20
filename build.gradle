@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'java11-category-theory-total-poset-product'
+group 'java11-category-theory-powerset-poset-product'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 11
