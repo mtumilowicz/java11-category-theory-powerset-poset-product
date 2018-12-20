@@ -27,5 +27,5 @@ therefore:
     (and `P' -> (A n B)` is unique,
 as in any poset there is at most one arrow between any two 
 objects)
-* composition is satisfied as well (at most one arrow between
-any two objects)
+* factorization of projections is satisfied as well 
+(at most one arrow between any two objects)
