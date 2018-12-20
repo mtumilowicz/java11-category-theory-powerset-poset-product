@@ -7,9 +7,9 @@ import java.util.Set;
  * Created by mtumilowicz on 2018-12-20.
  */
 class PowerSetPosetProduct<T> {
-    final ImmutableSet<T> product;
+    final ImmutableSet<T> intersection;
 
     PowerSetPosetProduct(Set<T> first, Set<T> second) {
-        this.product = ImmutableSet.copyOf(Sets.intersection(first, second));
+        this.intersection = ImmutableSet.copyOf(Sets.intersection(first, second));
     }
 }

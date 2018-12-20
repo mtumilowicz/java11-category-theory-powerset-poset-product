@@ -16,15 +16,15 @@ public class PowerSetPosetProductIntegerTest {
     public void empty_intersection() {
         var posetProduct = new PowerSetPosetProduct<>(Set.of(1), Set.of(2));
 
-        assertTrue(posetProduct.product.isEmpty());
+        assertTrue(posetProduct.intersection.isEmpty());
     }
 
     @Test
     public void notEmpty_intersection() {
         var posetProduct = new PowerSetPosetProduct<>(Set.of(1, 2), Set.of(2, 3));
 
-        assertThat(posetProduct.product, hasSize(1));
-        assertThat(posetProduct.product, contains(2));
+        assertThat(posetProduct.intersection, hasSize(1));
+        assertThat(posetProduct.intersection, contains(2));
     }
 
 }
