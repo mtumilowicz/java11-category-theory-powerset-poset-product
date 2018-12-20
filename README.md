@@ -36,10 +36,10 @@ objects)
 Basic implementation of product will be
 ```
 class PowerSetPosetProduct<T> {
-    final ImmutableSet<T> product;
+    final ImmutableSet<T> intersection;
 
     PowerSetPosetProduct(Set<T> first, Set<T> second) {
-        this.product = ImmutableSet.copyOf(Sets.intersection(first, second));
+        this.intersection = ImmutableSet.copyOf(Sets.intersection(first, second));
     }
 }
 ```
