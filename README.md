@@ -12,9 +12,8 @@ with morphisms: `A -> B <=> A c B`
 we will sketch proof that `A n B` (intersection)
 has universal property:
 
-* there exists projections (we cannot give explicit
-formulas, but we know that they exists and its sufficient
-for us):
+* we cannot give explicit formulas, but we know that 
+projections exist:
     * fst: `(A n B) c A => (A n B) -> A`
     * snd: `(A n B) c B => (A n B) -> B`
 
